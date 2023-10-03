@@ -611,6 +611,30 @@ video {
   margin-top: 5rem;
 }
 
+.mr-6 {
+  margin-right: 1.5rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.-ml-8 {
+  margin-left: -2rem;
+}
+
+.-ml-20 {
+  margin-left: -5rem;
+}
+
+.-ml-16 {
+  margin-left: -4rem;
+}
+
+.mr-32 {
+  margin-right: 8rem;
+}
+
 .inline {
   display: inline;
 }
@@ -661,6 +685,14 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[540px\] {
+  width: 540px;
+}
+
+.w-\[544px\] {
+  width: 544px;
 }
 
 .max-w-\[800px\] {
@@ -757,6 +789,30 @@ video {
   padding-top: 1rem;
 }
 
+.pr-16 {
+  padding-right: 4rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pt-\[120px\] {
+  padding-top: 120px;
+}
+
+.pt-\[150px\] {
+  padding-top: 150px;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
 .text-\[18px\] {
   font-size: 18px;
 }
@@ -819,6 +875,18 @@ video {
 .text-amber-500 {
   --tw-text-opacity: 1;
   color: rgb(245 158 11 / var(--tw-text-opacity));
+}
+
+.outline-4 {
+  outline-width: 4px;
+}
+
+.outline-offset-4 {
+  outline-offset: 4px;
+}
+
+.outline-\[\#FFFFFF\] {
+  outline-color: #FFFFFF;
 }
 
 .hover\:text-\[\#8E8E8E\]:hover {
