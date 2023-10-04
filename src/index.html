@@ -25,7 +25,9 @@
       <button class="signOut w-[140px] p-3 bg-[#FA504D] text-[#FFF] text-[18px] font-bold">Sign Out</button>
     </div>
   </div>
-  <div class="contentspace flex w-full items-start justify-between">
+
+
+  <div class="contentspace flex w-full items-center justify-between">
     <div class="mainLeft relative">
       <div class="leftDesign flex flex-col justify-between w-full h-full">
 
@@ -59,9 +61,34 @@
       </div>
     </div>
 
-    <div class="rightDesign flex-col item-center justify-center">
-      <img src="/src/image/border.svg" alt=""
-        class="productSymbol w-[544px] mr-32 pt-[150px] outline-offset-4 outline-4 outline-[#FFFFFF]">
+    <div class="rightDesign flex-col item-center justify-center pl-12 pt-[150px] mr-16">
+      <img src="/src/image/border.svg" alt="" class="productSymbol outline-4 outline-[#FFFFFF] w-[544px]">
+      <div class="bidderProfile bg-white flex-row px-5">
+        <div class="profile flex-row justify-between items-center pb-6">
+          <img src="/src/image/unsplash_XHVpWcr5grQ.svg" alt="" class="profimg inline-flex mt-4">
+          <div class="forgap inline-flex gap-16">
+            <div class="profilename inline-flex">
+              <div class="content flex-col justify-start p-3">
+                <div class="handle text-[#8E8E8E] text-[18px]">@samanthaw</div>
+                <div class="name text-[#2E2F38] text-[24px] font-bold">Artwork #01</div>
+              </div>
+            </div>
+            <div class="profilename inline-flex ml-16">
+              <div class="currentBid flex-col justify-start p-3 gap-3">
+                <div class="current text-[#8E8E8E] text-[18px]">Current Bid</div>
+                <div class="bid-price text-[#2E2F38] text-[24px] font-bold">1.00 ETH</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="rule h-1 text-[#2E2F38] py-6">
+        <div class="cta flex justify-between">
+          <button class="btn1 w-[240px] h-[60px] text-[#FFFFFF] bg-red-500 text-lg font-semibold">Bid Now</button>
+          <button class="btn2 w-[240px] h-[60px] text-red-500 text-lg font-semibold">View Artwork</button>
+        </div>
+      </div>
+
     </div>
 
   </div>
