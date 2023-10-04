@@ -27,28 +27,28 @@
   </div>
 
 
-  <div class="contentspace flex w-full items-center justify-between">
+  <div class="contentspace flex w-full items-center lg:gap-[380px]">
     <div class="mainLeft relative">
       <div class="leftDesign flex flex-col justify-between w-full h-full">
 
         <!-- Value proposition -->
-        <div class="centerInfo ml-20 mt-[80px]">
+        <div class="centerInfo ml-20 mt-[60px]">
           <div
-            class="sellingvalue relative text-amber-500 sm:text-[38px] md:text-[42px] xl:text-[#2E2F38] lg:text-[72px] font-[400] max-w-[800px] h-auto mt-8">
+            class="sellingvalue relative mr-3 text-amber-500 sm:text-[38px] md:text-[42px] lg:mr-0 xl:text-[#2E2F38] lg:text-[72px] font-[400] max-w-[800px] h-auto mt-8 z-10">
             The <span class="emphasis text-red-500 lg:text-[#2E2F38]">largest</span> NFT market with exceptional items
             on the bid
             <div class="highlightMark hidden lg:inline-flex absolute top-3 left-[110px]">
               <img src="./image/Vector.svg" alt="" class="highlight">
             </div>
           </div>
-          <div class="sellingsubtext text-[#8E8E8E] text-[24px] font-normal mt-12">
+          <div class="sellingsubtext text-[#8E8E8E] text-[24px] font-normal mt-10">
             Collectible and non-fungible tokens in your hands
           </div>
 
           <!-- CTA buttons -->
           <div class="actionbtns flex-col justify-center lg:flex-row">
             <button
-              class="explore mt-12 bg-red-500 w-[240px] h-[60px] text-[#FFF] text-[18px] font-bold">Explore</button>
+              class="explore w-[180px] mt-12 bg-red-500 lg:w-[240px] h-[60px] text-[#FFF] text-[18px] font-bold">Explore</button>
             <div class="rightbtn inline-flex ml-7 mt-12 pt-4">
               <button><a href="#" class="explore text-[#2E2F38] text-[18px] font-bold">Learn more</a></button>
               <img src="/src/image/Arrow.svg" alt="" class="arrow inline-flex">
@@ -56,17 +56,24 @@
           </div>
 
         </div>
+      </div>
 
+      <div class="featured pt-8 ml-[30px]">
+        <h3 class="fTitle text-[32px] font-normal text-[#2E2F38] ml-[48px]">Featured Artwork</h3>
+        <div class="images flex-col md:ml-3 lg:flex-row justify-start gap-6">
+          <img src="/src/image/placeholder.png" alt="" class="img1 w-[392px] inline">
+          <img src="/src/image/placeholder (1).png" alt="" class="img2 w-[392px] inline">
+        </div>
 
       </div>
     </div>
 
-    <div class="rightDesign flex-col item-center justify-center pl-12 pt-[150px] mr-16">
-      <img src="/src/image/border.svg" alt="" class="productSymbol outline-4 outline-[#FFFFFF] w-[544px]">
+    <div class="rightDesign flex-col item-center justify-center pt-[150px] mr-16">
+      <img src="/src/image/border.svg" alt="" class="productSymbol w-[350px] lg:w-[544px]">
       <div class="bidderProfile bg-white flex-row px-5 -mt-16 py-4">
         <div class="profile flex-row justify-between items-center pb-6">
           <img src="/src/image/unsplash_XHVpWcr5grQ.svg" alt="" class="profimg inline-flex mt-4">
-          <div class="forgap inline-flex gap-16">
+          <div class="forgap flex-col items-center inline-flex gap-16 lg:flex-row">
             <div class="profilename inline-flex">
               <div class="content flex-col justify-start p-3">
                 <div class="handle text-[#8E8E8E] text-[18px]">@samanthaw</div>
@@ -82,24 +89,30 @@
           </div>
         </div>
 
-        <hr class="rule h-2 text-[#2E2F38] py-3 font-bold">
-        <div class="cta flex justify-between">
+        <hr class="rule hidden lg:block h-2 text-[#2E2F38] py-3 font-bold">
+        <div class="cta flex-col lg:flex-row justify-between">
           <button class="btn1 w-[240px] h-[45px] text-[#FFFFFF] bg-red-500 text-lg font-semibold">Bid Now</button>
           <button class="btn2 w-[240px] h-[45px] text-red-500 text-lg font-semibold">View Artwork</button>
         </div>
       </div>
-      <div class="milestone py-4 flex justify-center items-center gap-16">
-        <div class="artwork flex justify-center items-center">
-          <h3 class="ms1 text-[32px] text-[#FA504D] font-semibold">50k+</h3>
-          <p class="ms2 text-[#FFF] text-lg font-normal pl-1">Artwork</p>
+      <div class="milestone flex-col py-4 justify-center ml-10 lg:flex-row">
+        <div class="wrap1 inline-flex">
+          <div class="artwork justify-center items-center flex px-3">
+            <h3 class="ms1 text-[32px] text-[#FA504D] font-semibold">50k+</h3>
+            <p class="ms2 text-[#FFF] text-lg font-normal pl-1">Artwork</p>
+          </div>
         </div>
-        <div class="artwork flex justify-center items-center">
-          <h3 class="ms1 text-[32px] text-[#FA504D] font-semibold">30k+</h3>
-          <p class="ms2 text-[#FFF] text-lg font-normal pl-1">Artist</p>
+        <div class="wrap1 inline-flex ml-auto">
+          <div class="artwork justify-center items-center flex px-3">
+            <h3 class="ms1 text-[32px] text-[#FA504D] font-semibold">30k+</h3>
+            <p class="ms2 text-[#FFF] text-lg font-normal pl-1">Artist</p>
+          </div>
         </div>
-        <div class="artwork flex justify-center items-center">
-          <h3 class="ms1 text-[32px] text-[#FA504D] font-semibold">20k+</h3>
-          <p class="ms2 text-[#FFF] text-lg font-normal pl-1">Auction</p>
+        <div class="wrap1 inline-flex ml-auto">
+          <div class="artwork flex justify-center items-center px-3">
+            <h3 class="ms1 text-[32px] text-[#FA504D] font-semibold">20k+</h3>
+            <p class="ms2 text-[#FFF] text-lg font-normal pl-1">Auction</p>
+          </div>
         </div>
       </div>
 
